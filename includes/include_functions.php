@@ -1,0 +1,12 @@
+<?php
+include("function/cart_function.php");
+include("function/db.php");
+include("function/details_function.php");
+include("function/footer_function.php");
+include("function/index_function.php");
+include("function/menu_filtering_function.php");
+include("function/menu_function.php");
+include("function/search_function.php");
+include("function/user_function.php");
+include("function/order_function.php");
+ ?>
