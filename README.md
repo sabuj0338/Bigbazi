@@ -22,7 +22,7 @@ Software Requirement(Any One)
 3. Database Configuration:
 4. Open phpmyadmin
 5. Create Database named “bigbazi”.
-6. Import database bigbazi.sql.
+6. Import database file bigbazi.sql from bigbazi/bigbazi.sql.
 7. Open Your browser put inside URL:“http://localhost/bigbazi/”
 8. To Login as admin put inside URL:”http://localhost/bigbazi/dashboard”
 
