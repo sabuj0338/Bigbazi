@@ -131,8 +131,8 @@ function cart_table(){
         <td>$title</td>
         <td>$qty</td>
         <td>$price$</td>
-        <td><a class='btn btn-warning btn-sm' href='#'><i class='fas fa-edit'></i></a>
-        <a class='btn btn-danger btn-sm' href='?delete_id=$pro_id'><i class='fas fa-trash-alt'></i></a></td>
+        <td><a class='btn btn-warning btn-sm' href='#'><i class='fa fa-edit'></i></a>
+        <a class='btn btn-danger btn-sm' href='?delete_id=$pro_id'><i class='fa fa-trash'></i></a></td>
       </tr>";
     }
   }else {

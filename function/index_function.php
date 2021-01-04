@@ -28,7 +28,7 @@ function new_product(){
             <div class='text-dark card-header'>
               <div class='row px-3'>
                 <div class='col-sm-10 p-0'>
-                  <a class='display-8 text-dark' href='details.php?pro_id=$pro_id' style='text-decoration:none;'>$title</a>
+                  <a class='display-8' href='details.php?pro_id=$pro_id'>$title</a>
                 </div>
                 <div class='col-sm-2 p-0'>
                   <span class='badge badge-warning'>NEW</span>
@@ -37,11 +37,6 @@ function new_product(){
             </div>
             <div class='container-content card-body p-0'>
               <img class='img-fluid image-content p-3' src='dashboard/product_images/$img1' alt='$img1'>
-              <div class='overlay-content'>
-                <div class='middle-content'>
-                  <a class='btn btn-success' href='details.php?pro_id=$pro_id'>Details</a>
-                </div>
-              </div>
             </div>
             <div class='card-footer'>
               <span class='display-7 float-left text-secondary'><span class='text-warning'>$</span>$price</span>

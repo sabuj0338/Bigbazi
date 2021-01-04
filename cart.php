@@ -13,7 +13,7 @@ if (!isset($_SESSION['email_phone'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- all css file of this page -->
-    <?php include("includes/css.php"); ?>
+    <?php include("includes/styles.php"); ?>
 
     <title>BIGBAZI | CART</title>
   </head>
@@ -21,7 +21,7 @@ if (!isset($_SESSION['email_phone'])) {
 
 
     <!-- including navbar for this page -->
-    <?php include("includes/nav.php") ?>
+    <?php include("includes/header.php") ?>
 
 
     <section class="container py-2 p-0">
@@ -61,8 +61,8 @@ if (!isset($_SESSION['email_phone'])) {
       </div>
       <?php delete(); update_cart_item();?>
       <div class="">
-        <table class="table table-hover table-striped text-center">
-          <thead class="bg-success">
+        <table class="table table-sm table-hover table-striped text-center">
+          <thead class="">
             <tr>
               <th>Product Name</th>
               <th>Quantity</th>
@@ -73,7 +73,7 @@ if (!isset($_SESSION['email_phone'])) {
           <tbody>
             <?php cart_table(); ?>
           </tbody>
-          <tfoot class="bg-dark text-light">
+          <tfoot class="">
             <tr>
               <td></td>
               <td></td>

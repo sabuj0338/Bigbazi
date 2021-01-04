@@ -9,14 +9,14 @@ include("includes/include_functions.php");
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- all css file of this page -->
-    <?php include("includes/css.php"); ?>
+    <?php include("includes/styles.php"); ?>
 
     <title>Product Details</title>
   </head>
   <body style="background:#fafafa;">
 
     <!-- including navbar for this page -->
-    <?php include("includes/nav.php") ?>
+    <?php include("includes/header.php") ?>
 
     <section class="container py-2 p-0">
       <div class="row">

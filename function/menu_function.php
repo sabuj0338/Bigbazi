@@ -11,7 +11,7 @@ function category(){
     $cat_id = $array['cat_id'];
     $cat_title = $array['cat_title'];
     $title = strtoupper($cat_title);
-    echo "<a class='btn text-success btn-block btn-light btn-sm' href='category.php?cat_id=$cat_id'>$title</a>";
+    echo "<a class='dropdown-item' href='category.php?cat_id=$cat_id'>$title</a>";
   }
 }
 
@@ -24,7 +24,7 @@ function brand(){
     $brand_id = $array['brand_id'];
     $brand_title = $array['brand_title'];
     $title = strtoupper($brand_title);
-    echo "<a class='btn text-success btn-block btn-light btn-sm' href='brand.php?brand_id=$brand_id'>$title</a>";
+    echo "<a class='dropdown-item' href='brand.php?brand_id=$brand_id'>$title</a>";
   }
 }
 

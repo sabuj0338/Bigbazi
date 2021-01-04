@@ -1,4 +1,4 @@
-<footer class="container-fluid p-0" style="background:#1b5e20;">
+<footer class="container-fluid p-0 bg-secondary">
   <div class="container py-4">
     <div class="row">
       <div class="col-2 text-white">
@@ -18,13 +18,13 @@
       </div>
       <div class="col-4 text-white">
         <h5>Follow Us</h5>
-        <a class="border btn btn-light" href="#"><i class="fab fa-facebook-f text-success"></i></a>
-        <a class="border btn btn-light" href="#"><i class="fab fa-twitter text-success"></i></a>
-        <a class="border btn btn-light" href="#"><i class="fab fa-instagram text-success"></i></a>
+        <a class="border btn btn-light" href="#"><i class="fa fa-facebook-f text-success"></i></a>
+        <a class="border btn btn-light" href="#"><i class="fa fa-twitter text-success"></i></a>
+        <a class="border btn btn-light" href="#"><i class="fa fa-instagram text-success"></i></a>
       </div>
     </div>
   </div>
   <div class="bg-dark2 text-center text-white">
-    <span>Copyright &copy 2018 DIGBAZI.COM. All Rights Reserved</span>
+    <span>Copyright &copy 2018 kopacopy.com All Rights Reserved</span>
   </div>
 </footer>
